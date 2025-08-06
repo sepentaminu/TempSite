@@ -1,43 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dark Fantasy Site</title>
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-
-  <!-- Barba.js -->
-  <script src="https://unpkg.com/@barba/core" defer></script>
-
-  <!-- Custom Scripts -->
-  <script src="main.js" defer></script>
-  <script src="transitions.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Fantasy Fog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<body data-barba="wrapper">
-  <div data-barba="container" data-barba-namespace="home">
-    <header>
-      <h1>به دنیای تاریک خوش اومدی</h1>
-      <nav>
-        <a href="page2.html" data-barba-link>صفحه بعد</a>
-      </nav>
-    </header>
-
-     <div id="fog-container"></div>
-
-   <script type="module" src="scripts/main.js"></script>
-    <main>
-      <section>
-        <h2>جای مدل ۳ بعدی اینجاست</h2>
-        <canvas id="main-canvas"></canvas>
-       
-      </section>
-    </main>
-  </div>
+<body>
+  <div id="fog-container"></div>
+  <script src="scripts/main.js" type="module"></script>
 </body>
 </html>
