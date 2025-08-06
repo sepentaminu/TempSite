@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>صفحه دوم - Dark Fantasy</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+
+  <!-- Barba.js -->
+  <script src="https://unpkg.com/@barba/core" defer></script>
+
+  <!-- Custom Scripts -->
+  <script src="main.js" defer></script>
+  <script src="transitions.js" defer></script>
+</head>
+
+<body data-barba="wrapper">
+  <div data-barba="container" data-barba-namespace="page2">
+    <header>
+      <h1>سرزمین نفرین‌شده</h1>
+      <nav>
+        <a href="index.html" data-barba-link>بازگشت به خانه</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>دروازه‌ای به اعماق تاریکی</h2>
+        <p>اینجا می‌تونه یه مدل دیگه باشه یا حتی یه ویدیو از حرکت در محیط ۳D.</p>
+        <canvas id="page2-canvas"></canvas>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
