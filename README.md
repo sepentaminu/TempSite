@@ -1,6 +1,6 @@
 # Mont-Fort.com Website Copy
 
-This directory contains a complete local copy of the mont-fort.com website, downloaded on **August 7, 2025**.
+
 
 ## About Mont-Fort.com
 
@@ -31,10 +31,7 @@ The downloaded copy includes:
 - **Global Helpline** (`global-helpline.html`)
 - **Sitemap** (`sitemap-index.xml`)
 
-### Assets
-- **CSS & JavaScript** (`_astro/`) - All stylesheets and scripts
-- **Images & Media** (`_astro/`) - All images, logos, and media files
-- **CDN Assets** (`cdn-cgi/`) - Cloudflare CDN resources
+
 
 ## Technical Details
 
@@ -43,6 +40,7 @@ The downloaded copy includes:
 - **Download Method**: wget with full mirroring
 - **Link Conversion**: All links converted for local browsing
 - **Asset Preservation**: All images, CSS, JS, and media files preserved
+
 
 ## Key Features
 
@@ -55,16 +53,6 @@ The website includes:
 - **News Section** - Latest company news and announcements
 
 ## Running Locally
-
-To view the website locally:
-
-1. Navigate to the `mont-fort.com` directory
-2. Start a local web server:
-   ```bash
-   cd mont-fort.com
-   python3 -m http.server 8000
-   ```
-3. Open your browser and go to `http://localhost:8000`
 
 ## Company Information
 
@@ -81,7 +69,7 @@ The company operates globally with over 15 offices across six continents, servin
 - **Performance Optimized** - Fast loading with optimized assets
 - **SEO Friendly** - Proper meta tags and structured content
 - **Accessibility** - WCAG compliant design elements
-- **Multi-language Support** - Global audience considerations
+
 
 ## Download Information
 
@@ -90,8 +78,9 @@ The company operates globally with over 15 offices across six continents, servin
 - **Method**: wget --mirror with full asset preservation
 - **Status**: Complete copy with all functionality preserved
 
+
 ## Notes
 
 This is a static copy of the website as it appeared on the download date. Dynamic features requiring server-side processing (like contact forms) will not function in the local copy, but all content and styling is preserved exactly as it appeared on the live site.
 
-The website showcases Montfort Group's position as a leading global commodity trading and asset investment company, with comprehensive information about their business divisions, global presence, sustainability initiatives, and corporate values.
+
