@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# GitHub Pages optimized robots.txt
+# Original site: https://mont-fort.com
+# Hosted copy for archival/educational purposes
+
+Sitemap: sitemap-index.xml
